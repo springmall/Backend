@@ -8,11 +8,10 @@
         <version>2.6.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.dearjing</groupId>
-    <artifactId>mall</artifactId>
+    <groupId>com.springshop</groupId>
+    <artifactId>all</artifactId>
     <version>0.0.1</version>
-    <name>mall</name>
-    <description>个人网店程序</description>
+    <name>all</name>
     <packaging>pom</packaging>
     <modules>
         <module>installer</module>
@@ -20,9 +19,9 @@
     </modules>
     <properties>
         <spring-boot.version>2.6.2</spring-boot.version>
-        <java.version>17</java.version>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <java.version>15</java.version>
+        <maven.compiler.source>15</maven.compiler.source>
+        <maven.compiler.target>15</maven.compiler.target>
         <maven.build.timestamp.format>yyyy_MM_dd</maven.build.timestamp.format>
     </properties>
     <dependencies>
@@ -89,6 +88,7 @@
             <artifactId>pagehelper</artifactId>
             <version>5.3.0</version>
         </dependency>
+
 
 
     </dependencies>

@@ -3,16 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>mall</artifactId>
-        <groupId>com.dearjing</groupId>
+        <artifactId>all</artifactId>
+        <groupId>com.springshop</groupId>
         <version>0.0.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>core</artifactId>
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -41,9 +38,16 @@
             <artifactId>junit</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper</artifactId>
+            <version>4.2.1</version>
+        </dependency>
+
     </dependencies>
     <build>
-        <finalName>mall_server_${project.version}</finalName>
+        <finalName>springshop_${project.version}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -58,7 +62,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.dearjing.mall.StartServer</mainClass>
+                            <mainClass>com.springshop.SpringShop</mainClass>
                             <addClasspath>true</addClasspath>
 
                         </manifest>
