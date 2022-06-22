@@ -11,7 +11,7 @@
     <groupId>com.springshop</groupId>
     <artifactId>all</artifactId>
     <version>0.0.1</version>
-    <name>all</name>
+    <name>springshop</name>
     <packaging>pom</packaging>
     <modules>
         <module>installer</module>

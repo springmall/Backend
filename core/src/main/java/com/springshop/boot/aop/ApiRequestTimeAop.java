@@ -20,7 +20,7 @@ public class ApiRequestTimeAop {
     @Autowired
     HttpServletRequest httpServletRequest;
 
-    @Around("execution(* com.dearjing.mall.core.admin.common.api..*.*(..))")
+    @Around("execution(* com.springshop.core.admin.common.api..*.*(..))")
     public Object around(ProceedingJoinPoint joinPoint) throws Throwable {
         Long startTime = System.currentTimeMillis();
         Object ret=joinPoint.proceed();

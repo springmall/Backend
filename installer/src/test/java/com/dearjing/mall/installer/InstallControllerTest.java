@@ -1,4 +1,4 @@
-package com.dearjing.mall.installer;
+package com.springshop.installer;
 
 import lombok.extern.slf4j.Slf4j;
 import org.flywaydb.core.Flyway;
