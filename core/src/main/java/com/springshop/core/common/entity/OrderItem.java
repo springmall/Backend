@@ -11,7 +11,7 @@ public class OrderItem extends Base{
     @Id
     @Column(insertable = false)
     @GeneratedValue(generator = "JDBC")
-    Integer id;
+    Long id;
     /**
      * 对应的订单号
      */
@@ -19,13 +19,13 @@ public class OrderItem extends Base{
     /**
      * 数量
      */
-    Integer quantity;
+    Long quantity;
     /**
      * 总价
      */
-    Integer totalPrice;
+    Long totalPrice;
     /**
      *快照id
      */
-    Integer snapshotId;
+    Long snapshotId;
 }

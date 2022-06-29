@@ -1,0 +1,6 @@
+{
+  "name": "微信支付",
+  "desc": "微信支付网关",
+  "version": "版本",
+  "main":"com.springshop.Plugin"
+}

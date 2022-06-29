@@ -7,13 +7,15 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Data
-public class CategoryProduct extends Base{
+public class CategoryAttr extends Base{
     @Id
     @Column(insertable = false)
     @GeneratedValue(generator = "JDBC")
     Long id;
 
     Long categoryId;
-
-    Long productId;
+    //属性名称
+    String name;
+    //属性值
+    String value;
 }

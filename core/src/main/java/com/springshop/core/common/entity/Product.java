@@ -17,7 +17,7 @@ public class Product extends Base{
     @Id
     @Column(insertable = false)
     @GeneratedValue(generator = "JDBC")
-    Integer id;
+    Long id;
     /**
      * 商品的名称
      */
@@ -29,5 +29,5 @@ public class Product extends Base{
     /**
      * 销售价格
      */
-    Integer salePrice;
+    Long salePrice;
 }

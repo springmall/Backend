@@ -9,7 +9,7 @@ public class Base {
     Date createAt;
     Date updateAt;
     Date deleteAt;
-    Integer createUserId;
-    Integer updateUserId;
-    Integer deleteUserId;
+    Long createUserId;
+    Long updateUserId;
+    Long deleteUserId;
 }

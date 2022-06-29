@@ -16,6 +16,8 @@
     <modules>
         <module>installer</module>
         <module>core</module>
+        <module>plugin</module>
+        <module>plugin_order_wechat</module>
     </modules>
     <properties>
         <spring-boot.version>2.6.2</spring-boot.version>

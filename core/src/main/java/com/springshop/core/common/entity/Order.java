@@ -11,7 +11,7 @@ public class Order extends Base {
     @Id
     @Column(insertable = false)
     @GeneratedValue(generator = "JDBC")
-    Integer id;
+    Long id;
     /**
      * 订单的号码
      */
@@ -19,11 +19,11 @@ public class Order extends Base {
     /**
      * 购买的总价格
      */
-    Integer totalPrice;
+    Long totalPrice;
     /**
      * 购买的总数量
      */
-    Integer totalAmount;
+    Long totalAmount;
     /**
      * 狗买订单的用户
      */

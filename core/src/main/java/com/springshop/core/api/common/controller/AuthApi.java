@@ -24,7 +24,7 @@ public class AuthApi {
         return new ResDto(authService.login(form));
     }
 
-    @RequestMapping(method = RequestMethod.GET, value = "/auth/signup")
+    @RequestMapping(method = RequestMethod.POST, value = "/auth/signup")
     public ResDto<?> signup(@RequestBody SignupForm form) throws Exception {
         return new ResDto(authService.signup(form));
     }

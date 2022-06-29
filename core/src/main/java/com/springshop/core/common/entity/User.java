@@ -11,7 +11,7 @@ public class User extends Base {
     @Id
     @Column(insertable = false)
     @GeneratedValue(generator = "JDBC")
-    Integer id;
+    Long id;
     /**
      * 用户名称
      */

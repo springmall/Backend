@@ -11,7 +11,7 @@ public class Category  extends Base{
     @Id
     @Column(insertable = false)
     @GeneratedValue(generator = "JDBC")
-    Integer id;
+    Long id;
     /**
      * 分类名称
      */
@@ -23,5 +23,5 @@ public class Category  extends Base{
     /**
      * 父id
      */
-    Integer pid;
+    Long pid;
 }
